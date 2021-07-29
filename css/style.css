@@ -29,6 +29,9 @@ body {
   border-color: transparent;
   color: #fff;
 }
+.custom-btn:hover {
+  color: var(--text-color);
+}
 
 /* ------------------
 Navbar
