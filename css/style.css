@@ -72,7 +72,11 @@ header section
   align-items: center;
   height: 92vh;
 }
-
+.header-text .custom-btn {
+  width: fit-content;
+  display: inline-block;
+  text-decoration: none;
+}
 /* -------------
 Featured Bike section
 ---------------
@@ -80,6 +84,9 @@ Featured Bike section
 
 .featured-title p {
   color: var(--btn-bg);
+}
+.gray-color {
+  filter: grayscale(100%);
 }
 
 /* --------------------------------
@@ -92,6 +99,27 @@ blog section
   line-height: 3rem;
   font-size: 1.8rem;
   margin: 1.8rem 0;
+}
+
+/* ----------------------------------
+Testimonial Section
+------------------------------------ */
+
+.testimonial span {
+  color: var(--btn-bg);
+}
+.testimonial .rating i {
+  color: var(--btn-bg);
+}
+.testimonial .rating i:last-child {
+  color: #264653 !important;
+}
+
+/* ------------------------------------
+Accordion
+--------------------------------------- */
+.accordion span {
+  color: var(--btn-bg);
 }
 
 /* ----------------------------------
